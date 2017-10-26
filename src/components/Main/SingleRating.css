@@ -1,0 +1,21 @@
+.singleRating {
+    display:inline-block;
+}
+
+.star {
+    display:inline-block;
+    float:left;
+}
+
+.star .active {
+    color:#ffe600;
+}
+
+.star .inactive {
+    color:#969ba0;
+}
+
+.star > svg {
+    width:1rem;
+    height:1rem;
+}

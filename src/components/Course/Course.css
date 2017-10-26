@@ -1,0 +1,315 @@
+.active {
+    color: #ffe600 !important;
+}
+
+.inactive {
+    color:#eee !important;
+}
+
+.active, .inactive, .starBtn {
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.starBtn:hover svg, .starBtn:hover ~ .starBtn svg {
+    color: #ffe600 !important;
+}
+
+.textField {
+    width: 100%;
+    margin:0 0 0.75rem !important;
+}
+
+.reviewForm {
+    padding:1rem;
+    position:relative;
+}
+
+.reviewForm h3 {
+    margin-top:0.5rem;
+}
+
+.btnContainer {
+    margin:0.75rem 0 0;
+}
+
+.btn {
+    background-color: #2bde73 !important;
+    text-transform: capitalize !important;
+    color:#fff !important;
+    padding:0.75rem 1.125rem !important;
+    font-size:1rem !important;
+    font-family:"Circular" !important;
+    font-weight:500 !important;
+    border-radius:3px !important;
+    margin: 0 0.5rem 0.5rem;
+}
+
+.flatBtn {
+    text-transform: capitalize !important;
+    color:#252525 !important;
+    padding:0.75rem 1.125rem !important;
+    font-size:1rem !important;
+    font-family:"Circular" !important;
+    font-weight:500 !important;
+    margin-bottom: 0.5rem;
+}
+
+.ratingScale {
+    position:absolute;
+    right:1rem;
+    top:1.5rem;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.ratingsContainer {
+    padding:2rem 1.5rem;
+    background-color:#f5f5f5;
+    border-radius:3px;
+}
+
+.overallRating {
+    margin-bottom:2rem;
+}
+
+.overallRating h1 {
+    font-size:3rem;
+    font-weight:400;
+    margin:0.5rem 0;
+}
+
+.reviewsContainer, .ratingsContainer {
+    margin-top:1rem;
+}
+
+.rating {
+    position:relative;
+    margin:0.25rem 0;
+}
+.rating span {
+    vertical-align: super;
+}
+
+.rating svg {
+    margin-right:0.25rem;
+    color:#ffe600;
+}
+
+.ratingBar {
+    box-sizing: border-box;
+    position:absolute;
+    width:100%;
+    padding-left:3rem;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.review {
+    padding:1rem;
+    position:relative;
+}
+
+.review h3 {
+    margin:0;
+}
+
+.review .subtitle {
+    font-size:0.75rem;
+    color:#737c84;
+}
+
+.review .subtitle i {
+    margin: 0 0.125rem;
+}
+
+.review p {
+    margin:1rem 0;
+}
+
+.review .moreBtn {
+    position:absolute;
+    top: 1rem;
+    right: 1rem;
+    width:2rem;
+    height:2rem;
+}
+
+.noReviews {
+    margin-top:1rem;
+    display:block;
+}
+
+.progression {
+    text-align:center;
+    display:inline-block;
+    max-width:100%;
+    background-color:#f5f5f5;
+    border:1px solid #eee;
+}
+
+.currentCourse, .singleDependency, .singlePrerequisite {
+    display:flex;
+}
+
+.currentCourse {
+    padding:1rem 0;
+}
+
+.dependencies, .prerequisites {
+    display:inline-flex;
+}
+
+.dependencies, .prerequisites, .currentCourse, .singleDependency, .singlePrerequisite {
+    justify-content: center;
+    position:relative;
+}
+
+.singlePrerequisite {
+    margin-top:2rem;
+}
+
+.singleDependency {
+    margin-bottom:2rem;
+}
+
+.singlePrerequisite:after, .singleDependency:after,
+.dependencies .dependency:after, .prerequisites .prerequisite:after {
+    content:"";
+    position:absolute;
+    height:2rem;
+    width:2px;
+    background-color:#969ba0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.singleDependency:after {
+    bottom:-2rem;
+}
+
+.singlePrerequisite:after {
+    top:-2rem;
+}
+
+.dependency, .prerequisite, .current {
+    flex: 1;
+    width:240px;
+    max-width:240px;
+    position:relative;
+}
+
+.dependency > a > div, .prerequisite > a > div {
+    height:100%;
+    box-sizing: border-box;
+}
+
+.dependencies {
+    padding-bottom:2rem;
+    margin: 0 -0.5rem 2rem ;
+    border-bottom:2px solid #969ba0;
+}
+
+.prerequisites {
+    padding-top:2rem;
+    margin: 2rem -0.5rem 0;
+    border-top:2px solid #969ba0;
+}
+
+.dependencyFrame {
+    padding: 1rem 1rem 0;
+    margin-bottom:-1rem;
+}
+
+.prerequisiteFrame {
+    padding: 0 1rem 1rem;
+    margin-top:-1rem;
+}
+
+.dependencyFrame, .prerequisiteFrame {
+    max-width:100%;
+    overflow-x:scroll;
+
+}
+
+.dependencies .dependency, .prerequisites .prerequisite {
+    padding: 0 0.5rem;
+}
+
+.prerequisites .prerequisite:after, .currentCourse .dependencyLink {
+    top:-2rem;
+}
+
+.dependencies .dependency:after, .currentCourse .prerequisiteLink {
+    bottom:-2rem;
+}
+
+.prerequisiteLink, .dependencyLink {
+    position:absolute;
+    left:50%;
+    width:2px;
+    height:2rem;
+    background-color: #969ba0;
+    transform: translateX(-50%);
+}
+
+.dependencies .dependency:first-child:before, .dependencies .dependency:last-child:before,
+.prerequisites .prerequisite:first-child:before, .prerequisites .prerequisite:last-child:before {
+    content: '';
+    position:absolute;
+    height:2rem;
+    width:50%;
+    background-color: #f5f5f5;
+}
+
+.dependencies .dependency:first-child:before, .dependencies .dependency:last-child:before {
+    bottom:-2.5rem;
+}
+
+.prerequisites .prerequisite:first-child:before, .prerequisites .prerequisite:last-child:before {
+    top:-2.5rem
+}
+
+.dependencies .dependency:first-child:before, .prerequisites .prerequisite:first-child:before  {
+    left:0;
+}
+
+.dependencies .dependency:last-child:before, .prerequisites .prerequisite:last-child:before {
+    right:0;
+}
+
+.timetable {
+    text-transform: capitalize;
+}
+
+.timetable th {
+    font-weight:500;
+    font-size:0.875rem;
+}
+
+.timetable th span {
+    vertical-align: super;
+}
+
+.timetable th svg {
+    margin-right:0.375rem;
+}
+
+.timetable thead tr {
+    height:3.5rem;
+    background-color:#f5f5f5;
+}
+
+.timetable td {
+    font-weight:400;
+    font-size:0.875rem;
+}
+
+.open {
+    color: #2bd46b;
+}
+
+.full {
+    color: #ff5544;
+}
+

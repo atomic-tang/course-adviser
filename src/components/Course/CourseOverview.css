@@ -1,0 +1,26 @@
+.courseSummary {
+    border-radius:3px;
+    background-color:#f5f5f5;
+    padding:1.5rem;
+    margin-top:1.5rem;
+}
+
+.courseItem {
+    font-weight: 600;
+    margin:1rem 0 0.25rem;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.btn button {
+    background-color: #2bde73 !important;
+    text-transform: capitalize !important;
+    color:#fff !important;
+    padding:1rem 1.5rem !important;
+    font-size:1.125rem !important;
+    font-family:"Circular" !important;
+    font-weight:500 !important;
+    border-radius:3px !important;
+}

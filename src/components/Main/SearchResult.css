@@ -1,0 +1,56 @@
+.CourseLink {
+    text-decoration: none;
+    display:table;
+    position:relative;
+    padding:0 6rem 0 3.5rem;
+    height:4rem;
+    width:100%;
+    box-sizing: border-box;
+    margin:0.5rem 0;
+    border-radius:3px;
+    background-color:#fff;
+    transition:background-color linear 0.2s;
+}
+
+.CourseLink:hover {
+    background-color:#eee;
+}
+
+.CourseLink > span {
+    display:table-cell;
+    vertical-align: middle;
+    font-size:0.9375rem;
+    color:#252525;
+}
+
+.CourseLink > span b {
+    font-weight: bold;
+}
+
+.CourseIcon {
+    position:absolute;
+    width:2.25rem;
+    height:2.25rem;
+    background-color:#ffe600;
+    left:0.5rem;
+    top:50%;
+    transform:translateY(-50%);
+    border-radius:50%;
+}
+
+.CourseIcon > svg {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:1.125rem;
+    height:1.125rem;
+    color: #ffffff;
+}
+
+.CourseLink > .RatingContainer {
+    position:absolute;
+    right:0.5rem;
+    top:50%;
+    transform: translateY(-50%);
+}

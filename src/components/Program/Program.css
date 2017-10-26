@@ -1,0 +1,261 @@
+/* Program */
+
+.programHeader {
+    margin: 0rem -2rem 0;
+    padding:1rem 2rem 0;
+    border-bottom:1px solid #e0e0e0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position:relative;
+    padding:0 0 0 4.5rem;
+}
+
+.programHeader h1 {
+    margin:0;
+    padding:0.25rem 0;
+    font-weight: 400;
+    font-size:2rem;
+}
+
+.programIcon {
+    position:absolute;
+    border-radius:50%;
+    left:0;
+    top:0;
+    width:3rem;
+    height:3rem;
+    background-color: #2bde73;
+}
+
+.programIcon svg {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+}
+
+.tabs {
+    margin-left:-0.75rem;
+}
+
+@media (min-width: 960px) {
+    .tabs {
+        margin-left:-1.75rem;
+    }
+    .tabs button {
+        min-width:96px;
+    }
+}
+
+.programTitle {
+    margin-bottom:1.5rem;
+}
+
+.programTitle .subtitle i {
+    margin:0 0.25rem;
+}
+
+.programBody {
+    padding:1rem 0;
+}
+
+/* Program card */
+
+.itemCard {
+    padding:1rem;
+    transition: box-shadow ease-out 0.1s;
+}
+
+.itemCard:hover {
+    box-shadow: 0 8px 18px rgba(0,0,0,0.19), 0 4px 4px rgba(0,0,0,0.23);
+}
+
+.itemCard h3 {
+    font-size:1.125rem;
+    font-weight:400;
+    text-decoration: none;
+    height:4.5rem;
+    line-height:1.5rem;
+    overflow:hidden;
+    margin:1rem 0;
+    color: #737c84;
+    font-weight: 400;
+}
+
+.itemCard h3 b {
+    color:#252525;
+}
+
+.cardLink {
+    text-decoration:none;
+}
+
+.cardFooter {
+    margin:0.125rem 0;
+    position:relative;
+}
+
+.cardFooter ul {
+    padding:0;
+    list-style-type: none;
+    display: table;
+    margin: 0;
+}
+
+.cardFooter .programItem {
+    display:inline-block;
+    float:left;
+    position:relative;
+    padding-left:1.625rem;
+    margin:0.5rem 0.825rem 0 0;
+    font-size:0.8125rem;
+    color:#252525;
+    font-weight: 400;
+}
+
+.cardFooter .programItem svg {
+    left:0;
+}
+
+.cardFooter svg {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:1.25rem;
+    height:1.25rem;
+}
+
+.uoc {
+    color:#ffe600;
+}
+
+.duration {
+    color: #252525;
+}
+
+/* Program Overview */
+
+.programSummary {
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    padding:1rem 0;
+    margin:2rem 0rem;
+}
+
+.programSummary svg {
+    width:2rem;
+    height:2rem;
+}
+
+.programStructure .programItem {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+}
+
+
+.programItem .programItemTitle {
+    font-weight:500;
+    text-transform: capitalize;
+}
+
+.programItemIcon + span {
+    display:block;
+    font-size:0.8125rem;
+
+}
+
+.programItemIcon, .programItemIcon + span {
+    text-align: center;
+    opacity:0.7;
+}
+
+
+/* Program Cores & Options */
+
+.coreOptions {
+    padding-top:0.5rem;
+}
+
+.compulsoryCore h3 {
+    height: 4.5rem;
+}
+
+
+.title {
+    text-transform: capitalize;
+}
+
+.programCourses {
+    margin-bottom: 3rem;
+}
+
+.programOptions h5 {
+    margin-top:1.5rem;
+}
+
+/* Program Structure */
+
+#programStructure {
+    position:relative;
+}
+
+.majorDropdown {
+    position:absolute;
+    right:0;
+}
+
+.majorDropdown > span {
+    margin-right:0.75rem;
+}
+
+.majorDropdown Button {
+    font-weight:400;
+    border:1px solid #ddd;
+    border-radius:3px;
+    padding:0.375rem 0.875rem;
+}
+
+.majorDropdown Button svg {
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-left: 0.25rem;
+}
+
+/* Major */
+
+#major h2 {
+    font-weight:400;
+    color:#737c84;
+}
+
+#major h2 b {
+    color:#252525;
+}
+
+section {
+    padding-bottom:2rem;
+}
+
+/* Major Column */
+
+@media (min-width:960px) {
+    .courseColumn {
+        background-color:#f5f5f5;
+        border-radius:3px;
+        padding:1rem;
+        height: 100%;
+        box-sizing: border-box;
+    }
+}
+
+.courseColumn h5 {
+    margin-top:0;
+}
+
+
+
+

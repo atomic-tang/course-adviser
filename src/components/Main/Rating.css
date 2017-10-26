@@ -1,0 +1,21 @@
+.Rating {
+    display:inline-block;
+}
+
+.Star {
+    display:inline-block;
+    float:left;
+}
+
+.Star .active {
+    color:#ffe600;
+}
+
+.Star .inactive {
+    color:#969ba0;
+}
+
+.Star > svg {
+    width:0.8rem;
+    height:0.8rem;
+}
