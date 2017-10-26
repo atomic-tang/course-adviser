@@ -12,5 +12,4 @@ For the capstone project of INFS3605, Course Adviser was developed to provide st
 
 ## Login Credentials ##
 Username: z5056789
-
 Password: password
