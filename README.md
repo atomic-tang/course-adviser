@@ -10,6 +10,9 @@ For the capstone project of INFS3605, Course Adviser was developed to provide st
 4. Finally, run `npm run start` in Terminal or Command prompt to launch the application on a web browser. For an optimal experience, ensure to use a modern browser such as Google Chrome and Safari or the latest versions of Mozilla Firefox and Microsoft Edge.
 5. Enjoy!
 
-## Login Credentials ##
+## Demo ##
+https://course-advisor-5eb1f.firebaseapp.com
+
+#### Login Credentials ####
 Username: z5056789<br>
 Password: password
