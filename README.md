@@ -11,5 +11,5 @@ For the capstone project of INFS3605, Course Adviser was developed to provide st
 5. Enjoy!
 
 ## Login Credentials ##
-Username: z5056789
+Username: z5056789<br>
 Password: password
