@@ -101,7 +101,12 @@ class CourseOverview extends Component {
                                     {(course.contactHours) ? (<span>{course.contactHours}</span>) : (<span>3</span>)}
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <a className={styles.btn} target="_blank" href={`${course.courseOutlineUrl}`}><Button>Course outline</Button></a>
+                                    {(course.courseOutlineUrl) ? (
+                                        <a className={styles.btn} target="_blank" href={course.courseOutlineUrl}><Button>Course outline</Button></a>
+
+                                    ) : (
+                                        <a className={styles.btnDisabled} target="_blank"><Button disabled>no course outline</Button></a>
+                                    )}
                                 </Grid>
                             </Grid>
                         </div>

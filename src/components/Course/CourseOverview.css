@@ -10,17 +10,24 @@
     margin:1rem 0 0.25rem;
 }
 
-.btn {
+.btn, .btnDisabled {
     text-decoration: none;
 }
 
-.btn button {
-    background-color: #2bde73 !important;
+.btn button, .btnDisabled button {
     text-transform: capitalize !important;
-    color:#fff !important;
     padding:1rem 1.5rem !important;
     font-size:1.125rem !important;
     font-family:"Circular" !important;
     font-weight:500 !important;
     border-radius:3px !important;
+}
+
+.btn button {
+    color:#fff !important;
+    background-color: #2bde73 !important;
+}
+
+.btnDisabled button  {
+    background-color: rgba(0,0,0,0.05) !important;
 }
